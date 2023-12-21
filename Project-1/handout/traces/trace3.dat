@@ -1,0 +1,4 @@
+ls [1,2,42]
+wait 1
+pass
+exit

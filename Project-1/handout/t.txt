@@ -1,0 +1,40 @@
+.=============
+| Starting Time:  1
++------------
+| Process Starting
+|	PID:   1 Time (Rem:  1, Last Run:  1), Wait Rem:  0, Flags:[     C ], Command: ls -al 
++------------
+| Nothing to Return to Scheduler
++------------
+| Ready Queue:    1 Processes
+|	PID:   1 Time (Rem:  1, Last Run:  1), Wait Rem:  0, Flags:[    R  ], Command: ls -al 
+| Stopped Queue:  0 Processes
+|	None
+| Waiting Queue:  0 Processes
+|	None
++------------
+| Selecting to Run on the CPU
+|	PID:   1 Time (Rem:  1, Last Run:  1), Wait Rem:  0, Flags:[   U   ], Command: ls -al 
+\=============
+
+.=============
+| Starting Time:  2
++------------
+| Exit Selected
++------------
+| Finishing Process (PID: 1)
+|	PID:   1 Time (Rem:  0, Last Run:  1), Wait Rem:  0, Flags:[ X     ], Command: ls -al 
+| 	Process Exited with Exit Code 42
++------------
+| Ready Queue:    0 Processes
+|	None
+| Stopped Queue:  0 Processes
+|	None
+| Waiting Queue:  0 Processes
+|	None
++------------
+| Selecting to Run on the CPU
+|	None
+\=============
+
+We're done!
